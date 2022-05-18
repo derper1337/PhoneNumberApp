@@ -19,7 +19,8 @@ You can add more country / region codes in selector by changing the server/confi
 ## Note about MySQL database:
 This app working based on remotesql.com service, which provide remote MySQL database. Work with the database on:
 >https://remotemysql.com/phpmyadmin/index.php
-*if you get the cookie error, try again. Alse maybe some chrome extensions blocking it.
+
+*if you get the cookie error, try again. Also maybe some chrome extensions blocking it.
 >Login: eOvCkCke3N
 
 >Password: nAzWOm33yS
