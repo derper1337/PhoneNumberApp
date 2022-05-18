@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+}
+.phone-form{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #e7e7e7;
+  height: 160px;
+}
+.phone-list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
