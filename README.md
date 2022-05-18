@@ -15,6 +15,7 @@ Then, go to client folder, execute the same commands:
 After that, the backend and frontend part of the app must be ready. Visit http://localhost:3000 to see how it works.
 # Usage
 You can add more country / region codes in selector by changing the server/config.json file.
+app running on ports 3000-3001, so make sure they are free to use.
 
 ## Note about MySQL database:
 This app working based on remotesql.com service, which provide remote MySQL database. Work with the database on:
