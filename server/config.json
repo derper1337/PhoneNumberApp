@@ -1,0 +1,14 @@
+{
+  "Russian Federation":{
+    "name": "Russia",
+    "code": "7"
+  },
+  "United Kingdom": {
+    "name": "Britain",
+    "code": "44"
+  },
+  "France": {
+    "name": "France",
+    "code": "33"
+  }
+}
