@@ -35,10 +35,15 @@ function App() {
             })
     }
 
-    useEffect(()=> {
-        getPhoneNumbers()
-    },[])
-    let timerId = setInterval(() => {getPhoneNumbers()}, 3000);
+    useEffect(() => {
+        const timerId = setInterval(() => {getPhoneNumbers()}, 3000);
+        getPhoneNumbers();
+
+        return () => {
+            clearInterval(timerId);
+        }
+    }, []);
+
 
     return (
         <div className="App">
